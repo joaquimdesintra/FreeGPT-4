@@ -1,5 +1,5 @@
 from flask import render_template, redirect, url_for, request, session
-from flask_babel import refresh
+from flask-babel import refresh
 from time import time
 from os import urandom
 from server.babel import get_locale, get_languages
